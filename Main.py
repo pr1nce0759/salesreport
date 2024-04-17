@@ -1,8 +1,7 @@
 # Databricks notebook source
 from pyspark.sql import SparkSession
-
-spark = SparkSession.builder \
-    .appName("ETL Pipeline") \
+spark = SparkSession.builder\
+    .appName("ETL Pipeline")\
     .getOrCreate()
 
 # COMMAND ----------

@@ -32,4 +32,4 @@ staged_fact_df.write.format("delta").mode("overwrite").saveAsTable('StagedFactsT
 
 # COMMAND ----------
 
-persist_logs()
+persist_logs() 

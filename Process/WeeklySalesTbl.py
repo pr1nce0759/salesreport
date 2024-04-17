@@ -25,4 +25,4 @@ log_this("Final Report Table Loaded to BLOB")
 
 # COMMAND ----------
 
-persist_logs()
+persist_logs() 

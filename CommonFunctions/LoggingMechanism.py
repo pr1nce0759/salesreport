@@ -2,10 +2,6 @@
 from pyspark.sql import SparkSession
 from datetime import datetime
 
-# spark = SparkSession.builder \
-#     .appName("Logging Functions") \
-#     .getOrCreate()
-
 log_schema = "log STRING, log_date TIMESTAMP"
 log_df = spark.createDataFrame([], log_schema)
 

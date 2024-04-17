@@ -4,12 +4,6 @@ from pyspark.sql.functions import *
 
 # COMMAND ----------
 
-# spark = SparkSession.builder \
-#     .appName("ETLPipeline") \
-#     .getOrCreate()
-
-# COMMAND ----------
-
 log_this("Reading hier.clnd.dlm file.")
 hier_clnd_df = spark.read \
     .option("delimiter", "|") \
