@@ -1,0 +1,9 @@
+GSynergy Data Engineer Interview Challenge
+
+Implemented in 2 approaches
+
+Approach 1 - I Implemented complete process within DataBricks itself, However, I used PowerBi to bring up reports via ADF power query.
+Reason- I dont have a valid subscription to use Azure completely along with DataBricks.
+
+Approach 2 - I Implemented complete process within ADF itself.
+Reason- I dont have a valid subscription to use Azure completely along with DataBricks.
